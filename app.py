@@ -7,7 +7,7 @@ import pytesseract
 from typing import List, Tuple
 
 # Set the path to the Tesseract executable
-pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = "PiyushTiwari10/OCR/tesseract.exe"
 
 # Extract text from image using Tesseract OCR
 def extract_text(image: Image.Image) -> str:
